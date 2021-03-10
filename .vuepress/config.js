@@ -31,23 +31,23 @@ module.exports = {
         "link": "/timeline/",
         "icon": "reco-date"
       },
-      {
-        "text": "Docs",
-        "icon": "reco-message",
-        "items": [
-          {
-            "text": "vuepress-reco",
-            "link": "/docs/theme-reco/"
-          }
-        ]
-      },
+      // {
+      //   "text": "Docs",
+      //   "icon": "reco-message",
+      //   "items": [
+      //     {
+      //       "text": "vuepress-reco",
+      //       "link": "/docs/theme-reco/"
+      //     }
+      //   ]
+      // },
       {
         "text": "Contact",
         "icon": "reco-message",
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/minhtienvu",
             "icon": "reco-github"
           }
         ]
@@ -70,30 +70,32 @@ module.exports = {
       "tag": {
         "location": 3,
         "text": "Tag"
-      }
+      },
+      socialLinks: [     // 信息栏展示社交信息
+        { icon: 'reco-github', link: 'https://github.com/minhtienvu' },
+        { icon: 'reco-linkedin', link: 'https://www.linkedin.com/in/vu-minh-tien-a05a091a8/' },
+        { icon: 'reco-facebook', link: 'https://www.facebook.com/tiennahut2210/' },
+        { icon: 'reco-google-gmail', link: 'minhtienvu2210@gmail.com' },
+        { icon: 'reco-instagram', link: 'https://www.instagram.com/_nahut_' },
+        { icon: 'reco-skype', link: 'https://join.skype.com/invite/xlWubAv1OJzr' },
+      ]
     },
     "friendLink": [
       {
-        "title": "午后南杂",
+        "title": "hoangpn",
         "desc": "Enjoy when you can, and endure when you must.",
-        "email": "1156743527@qq.com",
-        "link": "https://www.recoluan.com"
-      },
-      {
-        "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-        "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://vuepress-theme-reco.recoluan.com"
+        "email": "hoangpn@gmail.com",
+        "link": "https://hoangpn.com/"
       }
     ],
     "logo": "/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "TienVM",
-    "authorAvatar": "/avatar.png",
-    "record": "xxxx",
-    "startYear": "2017"
+    "author": "TienVM Blog",
+    "authorAvatar": "/chill.jpg",
+    "record": "",
+    "startYear": "2021"
   },
   "markdown": {
     "lineNumbers": true
