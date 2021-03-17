@@ -13,5 +13,10 @@
     "vuepress": "1.7.1",
     "vuepress-theme-reco": "1.6.1"
   },
-  "description": "Come here"
+  "description": "Come here",
+  "dependencies": {
+    "@vssue/api-github-v4": "^1.4.7",
+    "valine": "^1.4.14",
+    "vssue": "^1.4.7"
+  }
 }

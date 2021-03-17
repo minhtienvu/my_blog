@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: Hello world !!!!!!!!!!!
-tagline: If it doesn’t challenge you, it doesn’t change you.
+heroText: 🇻🇳 Hello world !!!! 🇻🇳
+tagline: My learning log is recorded here.
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',

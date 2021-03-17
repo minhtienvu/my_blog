@@ -1,13 +1,13 @@
 module.exports = {
-  "title": "My blog",
-  "description": "Come here",
+  "title": "Tien Nahut",
+  "description": "",
   "dest": "public",
   "head": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "/favicon.ico"
+        "href": "/header_logo.jpg"
       }
     ],
     [
@@ -20,6 +20,26 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    valineConfig: {
+    //   // appId: 'jvc9s4BkJYQNOcpsbVTPMePe-gzGzoHsz',
+    //   // appKey: 'Js91M9DfM9vPwVaUj7xdkbxh',
+    //   // placeholder: '填写邮箱可以收到回复提醒哦！',
+    //   // verify: true, // 验证码服务
+    //   // // notify: true, // 
+    //   // recordIP: true,
+    //   // showComment: false
+
+      appId: 'XDwlSXS2pD137bPrPpwQaqqD-gzGzoHsz',// your appId
+      appKey: 'CQ8FKrMUP76LwycPcKlDoRqV', // your appKey
+      placeholder: 'Hãy để nhận xét của bạn tại đây',
+      avatar: 'wavatar',
+      lang: 'en',
+      // verify: true, // 验证码服务
+      notify: true, // 
+      // recordIP: true,
+      // showComment: false
+      // serverUrl: 'https://leanserver.smallsunnyfox.com'
+    },
     "nav": [
       {
         "text": "Home",
@@ -88,15 +108,17 @@ module.exports = {
         "link": "https://hoangpn.com/"
       }
     ],
-    "logo": "/logo.png",
+    "logo": "/avatar_chibi.jpg",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "TienVM Blog",
+    "author": "TienVM",
     "authorAvatar": "/chill.jpg",
     "record": "",
     "startYear": "2021"
   },
+  // End ThemeConfig
+
   "markdown": {
     "lineNumbers": true
   }
